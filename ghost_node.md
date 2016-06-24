@@ -143,6 +143,7 @@ http://javascript.ruanyifeng.com/nodejs/process.html
 * __dirname：开发期间，该行代码所在的目录。
 * process.cwd()：运行node的工作目录，可以使用  cd /d 修改工作目录。
 * require.main.filename：用node命令启动的module的filename, 如 node xxx，这里的filename就是这个xxx。
+
 ####3. Promise
 Promise是CommonJS的规范之一，拥有resolve、reject、done、fail、then等方法，能够帮助我们控制代码的流程，避免函数的多层嵌套。
 
