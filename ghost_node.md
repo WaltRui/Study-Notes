@@ -150,7 +150,7 @@ Promise是CommonJS的规范之一，拥有resolve、reject、done、fail、then�
 
 参考：
 
-http://www.zhangxinxu.com/wordpress/2014/02/es6-javascript-promise-%E6%84%9F%E6%80%A7%E8%AE%A4%E7%9F%A5（Promise通俗理解，不涉及技术）
+http://www.zhangxinxu.com/wordpress/2014/02/es6-javascript-promise-%E6%84%9F%E6%80%A7%E8%AE%A4%E7%9F%A5   （Promise通俗理解，不涉及技术）
 
 https://segmentfault.com/a/1190000000684654
 ##扩展内容
