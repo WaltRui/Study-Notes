@@ -1,15 +1,6 @@
-##Abp相关知识点
-- [ ] 程序集
-- [ ] Module生命周期
-- [x] 模块配置：http://www.cnblogs.com/farb/p/ABPStartupConfig.html
-- [x] 依赖注入 与 解析：http://www.cnblogs.com/farb/p/ABPDependencyInjection.html  （解析☆）
-- [ ] IShouldInitialize接口。IShouldInitialize接口有一个Initialize方法。如果实现了该接口，那么在创建对象之后（使用前）就会自动地调用Initialize方法
-- [ ] 实体类与相关审计接口。http://www.cnblogs.com/farb/p/ABPEntity.html
-- [ ] 审计日志。http://www.cnblogs.com/farb/p/ABPAuditLog.html
-- [ ] 领域服务？
-- [ ] UnitOfWork  http://www.cnblogs.com/farb/p/ABPUnitofWork.html   _就像GetAll()方法一样，如果在仓储之外需要数据库连接，那么必须使用工作单元 。（应用服务方法默认是工作单元）_
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+# 临时问题
+
+## 基于AOP的interceptors的具体实现过程。
+
+### 参考 
+https://github.com/castleproject/Windsor/blob/master/docs/interceptors.md

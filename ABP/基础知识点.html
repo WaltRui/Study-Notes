@@ -1,0 +1,1365 @@
+﻿<html lang="en" class=" is-copy-enabled is-u2f-enabled"><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset="utf-8">
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-3363a32e5577881235034d97a56954a2bad2b63e4f49663753de33b9b3693258.css" integrity="sha256-M2OjLlV3iBI1A02XpWlUorrStj5PSWY3U94zubNpMlg=" media="all" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-7c71a01ddd1ee83d35c198aaea9fb0eea65630d3975ab9970eca8d63463d2d3d.css" integrity="sha256-fHGgHd0e6D01wZiq6p+w7qZWMNOXWrmXDsqNY0Y9LT0=" media="all" rel="stylesheet">
+    
+    
+    
+    
+
+    <link as="script" href="https://assets-cdn.github.com/assets/frameworks-404cdd1add1f710db016a02e5e31fff8a9089d14ff0c227df862b780886db7d5.js" rel="preload">
+    
+    <link as="script" href="https://assets-cdn.github.com/assets/github-3f5d9e94c6a78a31e0a2e7d99731e864821a0cdbd82d28bc6948ef8cc4675f0b.js" rel="preload">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width">
+    
+    
+    <title>Study-Notes/基础知识点.md at abp · WaltRui/Study-Notes</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="https://avatars2.githubusercontent.com/u/20078554?v=3&amp;s=400" name="twitter:image:src"><meta content="@github" name="twitter:site"><meta content="summary" name="twitter:card"><meta content="WaltRui/Study-Notes" name="twitter:title"><meta content="Study-Notes - 开源项目学习整理笔记" name="twitter:description">
+      <meta content="https://avatars2.githubusercontent.com/u/20078554?v=3&amp;s=400" property="og:image"><meta content="GitHub" property="og:site_name"><meta content="object" property="og:type"><meta content="WaltRui/Study-Notes" property="og:title"><meta content="https://github.com/WaltRui/Study-Notes" property="og:url"><meta content="Study-Notes - 开源项目学习整理笔记" property="og:description">
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTkyNjIwNDE6YmEwYmFkMTRmMjY0MjQ0NmU2OWNiYjE4Y2MzM2E2YTc6OTc0NDFhNTY5N2NkMjQxZGY4NzM0MmM3NzMxNjExODk5YTNjNGZjNTcxMmM5YjI2NmJlYTg1MTg0M2FjNjVjNw==--6b7f3a776412e81c408b241d41a64b31a2766026">
+    <meta name="pjax-timeout" content="1000">
+    <link rel="sudo-modal" href="/sessions/sudo_modal">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host"><meta content="github" name="octolytics-app-id"><meta content="C60BB2BC:24F2:A1D1E2:5796F47E" name="octolytics-dimension-request_id"><meta content="19262041" name="octolytics-actor-id"><meta content="wangrui1990" name="octolytics-actor-login"><meta content="b3cc8f38c4364b98936c4adb75c39d7480edf3b707018775d4658cd965bf9330" name="octolytics-actor-hash">
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="wangrui1990">
+
+        <meta name="expected-hostname" content="github.com">
+      <meta name="js-proxy-site-detection-payload" content="MDMzZGY5NjE1MjBlMmI2ZTMxY2Y2ZGE5ZGJlNGIxZWIyODg1M2Y2ZTc1ODc2N2JjZDRmZWJiYTIwMDY0ZTI4NXx7InJlbW90ZV9hZGRyZXNzIjoiMTk4LjExLjE3OC4xODgiLCJyZXF1ZXN0X2lkIjoiQzYwQkIyQkM6MjRGMjpBMUQxRTI6NTc5NkY0N0UiLCJ0aW1lc3RhbXAiOjE0Njk1MTA3ODN9">
+
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <meta name="html-safe-nonce" content="fa96c2fd800fec1943ae2916f782d342c382b2ca">
+    <meta content="8142662add01662e999eb1d0d8a81813e2da8b49" name="form-nonce">
+
+    <meta http-equiv="x-pjax-version" content="87f83d17e2e9fc93fee49bedca0de37e">
+    
+
+      
+  <meta name="description" content="Study-Notes - 开源项目学习整理笔记">
+  <meta name="go-import" content="github.com/WaltRui/Study-Notes git https://github.com/WaltRui/Study-Notes.git">
+
+  <meta content="20078554" name="octolytics-dimension-user_id"><meta content="WaltRui" name="octolytics-dimension-user_login"><meta content="61679802" name="octolytics-dimension-repository_id"><meta content="WaltRui/Study-Notes" name="octolytics-dimension-repository_nwo"><meta content="true" name="octolytics-dimension-repository_public"><meta content="false" name="octolytics-dimension-repository_is_fork"><meta content="61679802" name="octolytics-dimension-repository_network_root_id"><meta content="WaltRui/Study-Notes" name="octolytics-dimension-repository_network_root_nwo">
+  <link href="https://github.com/WaltRui/Study-Notes/commits/abp.atom" rel="alternate" title="Recent Commits to Study-Notes:abp" type="application/atom+xml">
+
+
+      
+  <meta name="selected-link" value="repo_source" data-pjax-transient="true"><meta content="/<user-name>/<repo-name>/blob/show" data-pjax-transient="true" name="analytics-location"><link rel="canonical" href="https://github.com/WaltRui/Study-Notes/blob/abp/ABP/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9.md" data-pjax-transient="true"><link href="https://github.com/WaltRui/Study-Notes/commits/abp.atom" rel="alternate" title="Recent Commits to Study-Notes:abp" type="application/atom+xml" data-pjax-transient="true"></head>
+
+
+  <body class="logged-in  env-production windows vis-public">
+    
+    
+
+    
+    
+    
+
+
+
+        
+
+
+      
+
+
+    
+
+      
+
+
+    <div role="main">
+        <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container=""><div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+
+<a href="/WaltRui/Study-Notes/blob/c786505120dff9134b242b50f76883abfced569e/ABP/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:109a50f8572a50a6f359a99ce1db6034 -->
+
+
+
+
+
+  
+
+<div class="file">
+  
+
+  
+  <div id="readme" class="readme blob instapaper_body">
+    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-基础知识点" class="anchor" href="#基础知识点" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>基础知识点</h1>
+
+<p>类似循环语句，判断语句这些基础语法各语言都类似，不再详细说明，推荐找一本包含基础语法的书籍看一下目录，对于不太熟悉的知识点，进去详细看下。要保证在以后使用中，知道有这个语法或用法即可。
+这里主要讲解下实际开发中可能会用到或者查看Abp源码或其他开源项目时不太好理解的内容。</p>
+
+<h2><a id="user-content-1-abstract和interface" class="anchor" href="#1-abstract和interface" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. abstract和interface</h2>
+
+<h3><a id="user-content-介绍" class="anchor" href="#介绍" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>介绍</h3>
+
+<p>abstract class和interface是支持抽象类定义的两种机制，两者都是抽象类，都不能实例化。
+interface强调特定功能的实现，而abstract class强调所属关系。这里主要介绍下Abstract，在Abp中有一些地方用到abstract，需要明白为什么使用Abstract。</p>
+
+<h3><a id="user-content-应用场景" class="anchor" href="#应用场景" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>应用场景</h3>
+
+<h4><a id="user-content-interface的应用场合" class="anchor" href="#interface的应用场合" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>interface的应用场合</h4>
+
+<blockquote>
+<ul>
+<li>类与类之间需要特定的接口进行协调，而不在乎其如何实现。</li>
+<li>作为能够实现特定功能的标识存在，也可以是什么接口方法都没有的纯粹标识。</li>
+<li>需要将一组类视为单一的类，而调用者只通过接口来与这组类发生联系。</li>
+<li>需要实现特定的多项功能，而这些功能之间可能完全没有任何联系。</li>
+</ul>
+</blockquote>
+
+<h4><a id="user-content-abstract-class的应用场合" class="anchor" href="#abstract-class的应用场合" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>abstract class的应用场合</h4>
+
+<p>在既需要统一的接口，又需要实例变量或缺省的方法的情况下。Abp中，部分以Base后缀的需要具体实现的类，如AbpController，AbpRepositoryBase均为抽象类。</p>
+
+<blockquote>
+<ul>
+<li>某些场合下，只靠纯粹的接口不能满足类与类之间的协调，还必需类中表示状态的变量来区别不同的关系。abstract的中介作用可以很好地满足这一点。</li>
+<li>规范了一组相互协调的方法，其中一些方法是共同的，与状态无关的，可以共享的，无需子类分别实现；而另一些方法却需要各个子类根据自己特定的状态来实现特定的功能。</li>
+</ul>
+</blockquote>
+
+<p>以AbpRepositoryBase 为例，该类大约有40多个方法，但实际参与数据库操作的只有五个方法，其他方法是对查询到的数据进行操作。</p>
+
+<p><a href="imgs/AbpRepositoryBase.png" target="_blank"><img src="imgs/AbpRepositoryBase.png" alt="AbpRepositoryBase" style="max-width:100%;"></a></p>
+
+<p>该类为基类类，其子类针对不同的ORM框架有EfRepositoryBase、MongoDbRepositoryBase等。其中GetAll、Insert、Update、Delete方法，针对使用不同的ORM框架（EF或NHibernate）需要有不同的实现方式。
+而类中其他方法，则是依托这几个方法的结果进行查询，对使用什么框架没影响。所以在子类中，只需重新实现这五个方法，而其他方法无需变动。这种情况下需要使用Abstract 修饰符。
+具体为什么仓储类里与数据库交互的查询方法只有GetAll,而其他条件查询是对GetAll的数据操作；这样为什么不会降低性能？EF章节单独解释。</p>
+
+<h3><a id="user-content-相关参考" class="anchor" href="#相关参考" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>相关参考</h3>
+
+<p><a href="http://blog.csdn.net/xcbeyond/article/details/7667733">http://blog.csdn.net/xcbeyond/article/details/7667733</a></p>
+
+<p><a href="https://msdn.microsoft.com/zh-cn/library/sf985hc5">https://msdn.microsoft.com/zh-cn/library/sf985hc5</a></p>
+
+<p>《C# 高级编程（第九版）》 4.3.2章节 和4.5章节</p>
+
+<h2><a id="user-content-2--virtual和new" class="anchor" href="#2--virtual和new" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.  virtual和new</h2>
+
+<h3><a id="user-content-介绍-1" class="anchor" href="#介绍-1" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>介绍</h3>
+
+<p>virtual 关键字用于修饰方法、属性、索引器或事件声明，这里主要说下针对方法的区别。virtual关键字表示方法可被子类覆盖。但是即使不使用virtual，子类中编写一个同名方法（返回值和参数一致）也是可以覆盖基类方法的。</p>
+
+<p>两者的区别：</p>
+
+<p>不使用virtual和override，直接在子类中重写方法，C#将默认其为使用new关键字隐藏基类方法。</p>
+
+<p>使用new 关键字表示隐藏基类同名方法。</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">class</span> <span class="pl-en">Base</span>{
+    <span class="pl-k">public</span> <span class="pl-k">void</span> <span class="pl-en">ShowMessage</span>()
+    {
+        Console.WriteLine (<span class="pl-s"><span class="pl-pds">"</span>Base.show<span class="pl-pds">"</span></span>);
+    }
+}
+
+<span class="pl-k">class</span> <span class="pl-en">Class1</span>:<span class="pl-k">Base</span>{
+    <span class="pl-k">public</span> <span class="pl-k">new</span> <span class="pl-k">void</span> <span class="pl-en">ShowMessage</span>()
+    {
+        Console.WriteLine (<span class="pl-s"><span class="pl-pds">"</span>class1.show<span class="pl-pds">"</span></span>);
+    }
+}</pre></div>
+
+<p>使用virtual和override 关键字来表示覆盖父类的同名方法。</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">class</span> <span class="pl-en">Base</span>{
+    <span class="pl-k">public</span> <span class="pl-k">virtual</span> <span class="pl-k">void</span> <span class="pl-en">ShowMessage</span>()
+    {
+        Console.WriteLine (<span class="pl-s"><span class="pl-pds">"</span>Base.show<span class="pl-pds">"</span></span>);
+    }
+}
+<span class="pl-k">class</span> <span class="pl-en">Class2</span>:<span class="pl-k">Base</span>{
+    <span class="pl-k">public</span> <span class="pl-k">override</span> <span class="pl-k">void</span> <span class="pl-en">ShowMessage</span>()
+    {
+        Console.WriteLine (<span class="pl-s"><span class="pl-pds">"</span>class2.show<span class="pl-pds">"</span></span>);
+        <span class="pl-c">//base.SHowMessage();  // Base.show</span>
+    }
+}</pre></div>
+
+<p>两者区别在于调用时：</p>
+
+<div class="highlight highlight-source-cs"><pre>Base c = <span class="pl-k">new</span> Class1();
+c.ShowMessage();<span class="pl-c">//输出： Base.show</span>
+c = <span class="pl-k">new</span> Class2();
+c.ShowMessage();<span class="pl-c">//输出： class2.show</span></pre></div>
+
+<p>Base为声明类，而Class1和Class2为实例类，在执行c.ShowMessage();时，会</p>
+
+<blockquote>
+<ol>
+<li>先查看声明类（Base）中此方法是否为虚方法。</li>
+<li>如果不是虚方法，直接执行声明类（Base）中此方法。</li>
+<li>如果是虚方法，查找实例类（Class1或Class2）中是否有override此同名方法，如果有，执行实例类中同名方法。</li>
+<li>如果没有，执行声明类同名方法。</li>
+</ol>
+</blockquote>
+
+<p>所以当直接使用子类Class1作为声明类时，会调用子类自己的方法。</p>
+
+<div class="highlight highlight-source-cs"><pre>Class1 c = <span class="pl-k">new</span> Class1();
+c.ShowMessage();<span class="pl-c">//输出： class1.show</span></pre></div>
+
+<h3><a id="user-content-应用场景-1" class="anchor" href="#应用场景-1" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>应用场景</h3>
+
+<p>用于可能需要覆盖的方法，ABP中以Base后缀的类中方法基本都是virtual。</p>
+
+<h2><a id="user-content-3-internal" class="anchor" href="#3-internal" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. internal</h2>
+
+<p>添加了Internal修饰符的类，只能在包含它的程序集中访问该项。在abp框架源码中经常使用，实际使用abp做开发时使用不多。
+如果需要在其他程序集使用该程序集中internal的方法或类（如测试工程），可以在被引用项目的AssemblyInfo.cs文件添加InternalsVisibleTo属性（后面 项目结构 章节有介绍）。</p>
+
+<h2><a id="user-content-4-assembly" class="anchor" href="#4-assembly" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. Assembly</h2>
+
+<p>程序集，定义在System.Reflection命名空间下，多用来加载和执行程序集。
+程序集的理解，可以简单的认为每个项目就是一个程序集。</p>
+
+<h3><a id="user-content-abp中使用" class="anchor" href="#abp中使用" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Abp中使用</h3>
+
+<p>在Abp中,多用于模块加载，常用方法：Load、GetExecutingAssembly。
+每个模块中的Initialize方法都有这一句，用来加载当前程序集。</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">public</span> <span class="pl-k">override</span> <span class="pl-k">void</span> Initialize()
+{
+    IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
+}</pre></div>
+
+<h3><a id="user-content-相关参考-1" class="anchor" href="#相关参考-1" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>相关参考</h3>
+
+<p><a href="https://msdn.microsoft.com/zh-cn/library/system.reflection.assembly(v=vs.110).aspx?cs-save-lang=1&amp;cs-lang=csharp#code-snippet-1">https://msdn.microsoft.com/zh-cn/library/system.reflection.assembly(v=vs.110).aspx?cs-save-lang=1&amp;cs-lang=csharp#code-snippet-1</a></p>
+
+<p>《C# 高级编程（第九版）》 15.3.3章节</p>
+
+<h2><a id="user-content-5-反射" class="anchor" href="#5-反射" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>5. 反射</h2>
+
+<h3><a id="user-content-介绍-2" class="anchor" href="#介绍-2" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>介绍</h3>
+
+<p>反射是.Net中获取运行时类型信息的方式。通过反射可以提供类型信息，从而使得我们开发人员在运行时能够利用这些信息构造和使用对象，允许程序在执行过程中动态地添加各种功能。</p>
+
+<h3><a id="user-content-type" class="anchor" href="#type" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Type</h3>
+
+<p>Type类派生于System.Reflection.MemberInfo抽象类。通过Type可以获得对象的类型信息，不过Type也是一个抽象类，
+Type有与每种数据类型对应的派生类，我们使用这个派生类的对象的方法、字段、属性来查找有关该类型的所有信息。
+<a href="imgs/type.png" target="_blank"><img src="imgs/type.png" alt="type" style="max-width:100%;"></a></p>
+
+<h4><a id="user-content-获取type的方式" class="anchor" href="#获取type的方式" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>获取Type的方式</h4>
+
+<blockquote>
+<ul>
+<li>使用typeof运算符，如Type t = typeof(int);</li>
+<li>使用GetType()方法，如int i;Type t = i.GetType();</li>
+<li>使用Type类的静态方法GetType()，如Type t =Type.GetType("System.Double");</li>
+<li>通过程序集获取Type集合。Assembly asm=Assembly.LoadFrom("程序集路径"); Type[] alltype = assembly.GetTypes();</li>
+</ul>
+</blockquote>
+
+<h3><a id="user-content-使用" class="anchor" href="#使用" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>使用</h3>
+
+<h4><a id="user-content-获取方法的信息" class="anchor" href="#获取方法的信息" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>获取方法的信息</h4>
+
+<p>可以通过Type的方法GetMethods来获取方法信息集合(MethodInfo[]类型)。MethodInfo类下有方法GetParameters可以获取参数信息（ParameterInfo[]）。
+GetMethods有重载方法用来筛选过滤方法（如public、private等）。</p>
+
+<pre><code>  class MyClass
+    {
+        int x;
+        int y;
+        public MyClass(int i, int j)
+        {
+            x = i;
+            y = j;
+        }
+        public int sum()
+        {
+            return x + y;
+        }
+        public bool IsBetween(int i)
+        {
+            if (x &lt; i &amp;&amp; i &lt; y) return true;
+            else return false;
+        }
+        public void Set(int a, int b)
+        {
+            x = a;
+            y = b;
+        }
+        public void Set(double a, double b)
+        {
+            x = (int)a;
+            y = (int)b;
+        }
+        public void Show()
+        {
+            Console.WriteLine("x:{0},y:{1}",x,y);
+        }
+    }
+
+     class ReflectDemo
+        {
+            static void Main(string[] args)
+            {
+                Type t=typeof(MyClass);   //获取描述MyClass类型的Type对象
+                Console.WriteLine("Analyzing methods in "+t.Name);  //t.Name="MyClass"
+
+                MethodInfo[] mi = t.GetMethods();  //MethodInfo对象在System.Reflection命名空间下。
+                foreach (MethodInfo m in mi) //遍历mi对象数组
+                {
+                    Console.Write(m.ReturnType.Name); //返回方法的返回类型
+                    Console.Write(" " + m.Name + "("); //返回方法的名称
+
+                    ParameterInfo[] pi = m.GetParameters();  //获取方法参数列表并保存在ParameterInfo对象数组中
+                    for (int i = 0; i &lt; pi.Length; i++)
+                    {
+                        Console.Write(pi[i].ParameterType.Name); //方法的参数类型名称
+                        Console.Write(" "+pi[i].Name);  // 方法的参数名
+                        if (i + 1 &lt; pi.Length)
+                        {
+                            Console.Write(", ");
+                        }
+                    }
+                    Console.Write(")");
+                    Console.WriteLine(); //换行
+                }
+
+                Console.ReadKey();
+            }
+        }
+</code></pre>
+
+<h4><a id="user-content-调用方法" class="anchor" href="#调用方法" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>调用方法</h4>
+
+<p>MethodInfo有个方法Invoke可以用来调用方法。</p>
+
+<pre><code>static void Main()
+{
+   Type t=typeof(MyClass);
+   MyClass reflectOb = new MyClass(10, 20);
+   reflectOb.Show();  //输出为： x:10, y:20
+   MethodInfo[] mi = t.GetMethods();
+   foreach (MethodInfo m in mi)
+   {
+       ParameterInfo[] pi = m.GetParameters();
+
+       if (m.Name.Equals("Set", StringComparison.Ordinal) &amp;&amp; pi[0].ParameterType == typeof(int))
+       {
+           object[] args = new object[2];
+           args[0] = 9;
+           args[1] = 10;
+           //参数reflectOb,为一个对象引用，将调用他所指向的对象上的方法，如果为静态方法这个参数必须设置为null
+           //参数args，为调用方法的参数数组，如果不需要参数为null
+           m.Invoke(reflectOb, args);   //调用MyClass类中的参数类型为int的Set方法，输出为Inside set(int,int).x:9, y:10
+       }
+   }
+   Console.ReadKey();
+}
+</code></pre>
+
+<h4><a id="user-content-构造对象" class="anchor" href="#构造对象" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>构造对象</h4>
+
+<p>Type的方法GetConstructors用来获取构造函数。Constructors和MethodInfo都是从继承自MethodBase类。Invoke为MethodBase的抽象方法。所以
+Constructors的使用和MethodInfo类似。可以通过Invoke来创建对象。
+<a href="imgs/methodBase.png" target="_blank"><img src="imgs/methodBase.png" alt="methodbase" style="max-width:100%;"></a></p>
+
+<pre><code>Type t = typeof(MyClass);
+
+ConstructorInfo[] ci = t.GetConstructors();  //使用这个方法获取构造函数列表
+
+object[] consargs = new object[2];
+consargs[0] = 10;
+consargs[1] = 20;
+object reflectOb = ci[0].Invoke(consargs);  //实例化一个这个构造函数有两个参数的类型对象
+</code></pre>
+
+<h4><a id="user-content-从程序集中加载类型" class="anchor" href="#从程序集中加载类型" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>从程序集中加载类型</h4>
+
+<div class="highlight highlight-source-cs"><pre>Assembly asm = Assembly.LoadFrom(<span class="pl-s"><span class="pl-pds">@"exe或dll的绝对路径"</span></span>);  <span class="pl-c">//加载指定的程序集</span>
+Type[] alltype = asm.GetTypes();  <span class="pl-c">//获取程序集中的所有类型列表</span></pre></div>
+
+<h3><a id="user-content-参考" class="anchor" href="#参考" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h3>
+
+<p><a href="https://msdn.microsoft.com/zh-cn/library/system.type.aspx">https://msdn.microsoft.com/zh-cn/library/system.type.aspx</a>    Type类</p>
+
+<p><a href="http://www.cnblogs.com/knowledgesea/archive/2013/03/02/2935920.html">http://www.cnblogs.com/knowledgesea/archive/2013/03/02/2935920.html</a></p>
+
+<h2><a id="user-content-6-caspnet和net-framework-关系" class="anchor" href="#6-caspnet和net-framework-关系" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>6. C#、ASP.NET和.Net Framework 关系</h2>
+
+<p>C#是一门开发语言，是由C及C++演变而来的，Net FrameWork类似于Java 的JVM(虚拟机)，其核心是运行库的执行环境。C#、VB等编写的代码必须在.Net Framework上运行。
+ASP.NET是.NET Framework的一部分，是一种使嵌入网页中的脚本可由因特网服务器执行的服务器端脚本技术。</p>
+
+<h2><a id="user-content-7-装箱和拆箱" class="anchor" href="#7-装箱和拆箱" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>7. 装箱和拆箱</h2>
+
+<p>值类型存储在栈上，引用类型存储在堆上。从值类型转换为引用类型称为装箱，从引用类型转换为值类型称为拆箱。拆箱时，需要使用类型强制转换。
+C#所有值类型隐式派生自System.ValueType。数组和string均为引用类型。</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">var</span> list = <span class="pl-k">new</span> ArrayList();
+list.Add(<span class="pl-c1">10</span>);<span class="pl-c">//装箱，将值类型转换为引用类型。</span>
+<span class="pl-k">int</span> i=(<span class="pl-k">int</span>) list[<span class="pl-c1">0</span>];<span class="pl-c">//拆箱，将引用类型转换为值类型。使用强制类型转换。</span></pre></div>
+
+<h3><a id="user-content-应用场景-2" class="anchor" href="#应用场景-2" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>应用场景</h3>
+
+<blockquote>
+<ul>
+<li>调用参数为Object的方法时。</li>
+<li>非泛型的容器，为了保证通用，而将元素类型定义为Object。</li>
+</ul>
+</blockquote>
+
+<h3><a id="user-content-性能" class="anchor" href="#性能" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>性能</h3>
+
+<p>装箱和拆箱使用简单，但是对性能损耗较大，尤其是在遍历许多项时。
+所以应尽量避免使用装箱和拆箱，可以使用重载和泛型来避免不必要的装箱和拆箱操作。</p>
+
+<h3><a id="user-content-参考-1" class="anchor" href="#参考-1" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h3>
+
+<p><a href="http://www.cnblogs.com/huashanlin/archive/2007/05/16/749359.html">http://www.cnblogs.com/huashanlin/archive/2007/05/16/749359.html</a></p>
+
+<h2><a id="user-content-8-泛型" class="anchor" href="#8-泛型" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>8. 泛型</h2>
+
+<p>泛型可用于类、接口、方法和委托。使用了泛型可以保证其类型安全以及可以避免集合添加元素、取出元素时候的装箱、拆箱操作。</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-c">//前面的例子可以使用泛型，这样便不存在装箱和拆箱的性能和安全问题了</span>
+List&lt;<span class="pl-k">int</span>&gt; list = <span class="pl-k">new</span> List&lt;<span class="pl-k">int</span>&gt;();
+list.Add(<span class="pl-c1">10</span>);
+<span class="pl-k">int</span> i= list[<span class="pl-c1">0</span>];</pre></div>
+
+<p>自定义泛型类</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">class</span> <span class="pl-en">MyHelper</span>
+{
+    <span class="pl-k">public</span> <span class="pl-k">static</span> <span class="pl-k">void</span> <span class="pl-en">AddAndPrint</span>(<span class="pl-k">int</span> <span class="pl-smi">i</span>, <span class="pl-k">int</span> <span class="pl-smi">j</span>)
+    {
+        Console.WriteLine(<span class="pl-k">string</span>.Format(<span class="pl-s"><span class="pl-pds">"</span>The value is {0}<span class="pl-pds">"</span></span>, i.ToString() + <span class="pl-s"><span class="pl-pds">"</span>@<span class="pl-pds">"</span></span> + j.ToString()));
+    }
+    <span class="pl-k">public</span> <span class="pl-k">static</span> <span class="pl-k">void</span> <span class="pl-en">AddAndPrint</span>(<span class="pl-k">float</span> <span class="pl-smi">i</span>, <span class="pl-k">float</span> <span class="pl-smi">j</span>)
+    {
+        Console.WriteLine(<span class="pl-k">string</span>.Format(<span class="pl-s"><span class="pl-pds">"</span>The value is {0}<span class="pl-pds">"</span></span>, i.ToString() + <span class="pl-s"><span class="pl-pds">"</span>@<span class="pl-pds">"</span></span> + j.ToString()));
+    }
+    <span class="pl-k">public</span> <span class="pl-k">static</span> <span class="pl-k">void</span> <span class="pl-en">AddAndPrint</span>(<span class="pl-k">double</span> <span class="pl-smi">i</span>, <span class="pl-k">double</span> <span class="pl-smi">j</span>)
+    {
+        Console.WriteLine(<span class="pl-k">string</span>.Format(<span class="pl-s"><span class="pl-pds">"</span>The value is {0}<span class="pl-pds">"</span></span>, i.ToString() + <span class="pl-s"><span class="pl-pds">"</span>@<span class="pl-pds">"</span></span> + j.ToString()));
+    }
+}
+
+<span class="pl-k">static</span> <span class="pl-k">void</span> Main(<span class="pl-k">string</span>[] args)
+{
+    MyHelper.AddAndPrint(<span class="pl-c1">100</span>, <span class="pl-c1">120</span>);
+    MyHelper.AddAndPrint(<span class="pl-c1">100.123F</span>, <span class="pl-c1">120F</span>);
+    MyHelper.AddAndPrint(<span class="pl-c1">100.</span>456D, <span class="pl-c1">120.</span>666D);
+    Console.ReadKey();
+}</pre></div>
+
+<p>创建泛型类。
+格式如下,泛型类型的名称可以自定义，定义好后，在类内部可以想其他类型一样使用。</p>
+
+<pre><code>class className&lt;T&gt;
+{
+}
+//如果有多个泛型类型，使用逗号隔开即可。
+class className&lt;T1,T2&gt;
+{
+}
+</code></pre>
+
+<p>三个AddAndPrint函数除了参数类型以外，函数体内部实现完全一样，使用泛型实现如下：</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">public</span> <span class="pl-k">abstract</span> <span class="pl-k">class</span> <span class="pl-en">AbpRepositoryBase</span>&lt;T&gt;
+{
+    <span class="pl-k">public</span> <span class="pl-k">static</span> <span class="pl-k">void</span> <span class="pl-en">AddAndPrint</span>(<span class="pl-k">T</span> <span class="pl-smi">t1</span>, <span class="pl-k">T</span> <span class="pl-smi">t2</span>)
+    {
+        Console.WriteLine(<span class="pl-k">string</span>.Format(<span class="pl-s"><span class="pl-pds">"</span>The value is {0}<span class="pl-pds">"</span></span>, t1.ToString() + <span class="pl-s"><span class="pl-pds">"</span>@<span class="pl-pds">"</span></span> + t2.ToString()));
+    }
+}</pre></div>
+
+<p>Abp中泛型使用很多，以AbpRepositoryBase为例，如下：</p>
+
+<div class="highlight highlight-source-cs"><pre>    <span class="pl-k">public</span> <span class="pl-k">abstract</span> <span class="pl-k">class</span> <span class="pl-en">AbpRepositoryBase</span>&lt;TEntity, TPrimaryKey&gt; : <span class="pl-k">IRepository</span>&lt;<span class="pl-k">TEntity</span>, <span class="pl-k">TPrimaryKey</span>&gt;
+        <span class="pl-k">where</span> <span class="pl-k">TEntity</span> : <span class="pl-k">class</span>, <span class="pl-k">IEntity</span>&lt;<span class="pl-k">TPrimaryKey</span>&gt;
+    {
+        ....
+        <span class="pl-k">public</span> <span class="pl-k">abstract</span> IQueryable&lt;TEntity&gt; <span class="pl-en">GetAll</span>();
+
+        <span class="pl-k">public</span> <span class="pl-k">virtual</span> List&lt;TEntity&gt; <span class="pl-en">GetAllList</span>()
+        {
+            <span class="pl-k">return</span> GetAll().ToList();
+        }
+        <span class="pl-k">public</span> <span class="pl-k">virtual</span> TEntity <span class="pl-en">Single</span>(Expression&lt;Func&lt;TEntity, bool&gt;&gt; predicate)
+        {
+            <span class="pl-k">return</span> GetAll().Single(predicate);
+        }
+        ...
+    }</pre></div>
+
+<p>where 约束，此类限定TEntity 必须是引用类型，且继承自IEntity。
+作为约束使用的类型必须是接口，非密封类（使用sealed 修饰符 ）和类型参数。其中常用的几种约束方式：</p>
+
+<blockquote>
+<ul>
+<li>struct：类型参数必须是值类型。可以指定除 Nullable 以外的任何值类型。</li>
+<li>class：类型参数必须是引用类型，适用于任何类、接口、委托或数组类型。</li>
+<li>new()：类型参数必须具有无参数的公共构造函数。当与其他约束一起使用时，new() 约束必须最后指定。</li>
+<li>&lt;基类名称&gt;：类型参数必须是指定的基类或派生自指定的基类。</li>
+<li>&lt;接口名称&gt;：类型参数必须是指定的接口或实现指定的接口。可以指定多个接口约束。约束接口也可以是泛型的。</li>
+<li>T2：形如：where T1：T2  指定类型T1派生自泛型类型T2。</li>
+</ul>
+</blockquote>
+
+<h3><a id="user-content-泛型优势" class="anchor" href="#泛型优势" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>泛型优势</h3>
+
+<blockquote>
+<ul>
+<li>类型安全</li>
+<li>无需装箱和折箱</li>
+<li>无需强制类型转换</li>
+<li>代码复用性高</li>
+</ul>
+</blockquote>
+
+<h3><a id="user-content-参考-2" class="anchor" href="#参考-2" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h3>
+
+<p><a href="https://msdn.microsoft.com/zh-cn/library/bb384067.aspx">https://msdn.microsoft.com/zh-cn/library/bb384067.aspx</a></p>
+
+<h2><a id="user-content-9-委托" class="anchor" href="#9-委托" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>9. 委托</h2>
+
+<p>当需要把方法传递给其他方法时，就需要用到委托。</p>
+
+<h3><a id="user-content-使用方法" class="anchor" href="#使用方法" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>使用方法</h3>
+
+<ol>
+<li>定义：</li>
+</ol>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">delegate</span> <span class="pl-k">void</span> MyDelegate(<span class="pl-k">string</span> arg1,<span class="pl-k">int</span> arg2);</pre></div>
+
+<ol>
+<li>创建实例：</li>
+</ol>
+
+<div class="highlight highlight-source-cs"><pre>MyDelegate delegate1 = <span class="pl-k">new</span> MyDelegate(Method1);<span class="pl-c">//此方式创建委托并绑定一个方法</span>
+
+MyDelegate delegate2;<span class="pl-c">//创建委托</span>
+delegate2 = Method1;<span class="pl-c">//绑定方法，只要返回类型和参数类型一致，可以自动转换为委托</span>
+delegate2 += Method2;<span class="pl-c">//添加绑定方法，一个委托可以绑定多个方法，执行时依次执行。</span>
+
+<span class="pl-k">public</span> <span class="pl-k">static</span> <span class="pl-k">void</span> Method1(<span class="pl-k">string</span> arg1,<span class="pl-k">int</span> arg2)
+{
+    Console.WriteLine(<span class="pl-s"><span class="pl-pds">"</span>Method1:<span class="pl-pds">"</span></span>+arg1+<span class="pl-s"><span class="pl-pds">"</span>(<span class="pl-pds">"</span></span>+arg2+<span class="pl-s"><span class="pl-pds">"</span>)<span class="pl-pds">"</span></span>);
+}
+<span class="pl-k">public</span> <span class="pl-k">static</span> <span class="pl-k">void</span> Method2(<span class="pl-k">string</span> arg1,<span class="pl-k">int</span> arg2)
+{
+    <span class="pl-c">//Method2</span>
+}</pre></div>
+
+<ol>
+<li>使用</li>
+</ol>
+
+<p>可以直接执行委托：</p>
+
+<div class="highlight highlight-source-cs"><pre>delegate1(<span class="pl-s"><span class="pl-pds">"</span>abc<span class="pl-pds">"</span></span>,<span class="pl-c1">10</span>);</pre></div>
+
+<p>也可以作为参数传递给其他方法（该方法接收类型为该委托的参数）：</p>
+
+<div class="highlight highlight-source-cs"><pre>Method13(delegate2,<span class="pl-s"><span class="pl-pds">"</span>abc<span class="pl-pds">"</span></span>,<span class="pl-c1">10</span>);<span class="pl-c">//执行方法Method2,将委托实例作为参数传递</span>
+
+<span class="pl-k">private</span> <span class="pl-k">void</span> Method3(MyDelegate <span class="pl-k">delegate</span>,<span class="pl-k">string</span> arg1,<span class="pl-k">int</span> arg2)
+{
+    <span class="pl-c">//...</span>
+    <span class="pl-k">delegate</span>(arg1,arg2);
+}</pre></div>
+
+<p>委托可以同时绑定多个实例。</p>
+
+<h3><a id="user-content-使用场景" class="anchor" href="#使用场景" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>使用场景</h3>
+
+<p>方法执行的操作并不是针对数据进行，而是要对另一个方法进行操作，而且，在编译阶段无法得知第二个方法时什么，只有在运行时才能
+得知，这是需要把第二个方法作为参数传递个第一个方法，这就使用到了委托。如下几个常用委托的场景：</p>
+
+<blockquote>
+<ul>
+<li>启动线程和任务</li>
+<li>通用库类</li>
+<li>事件</li>
+</ul>
+</blockquote>
+
+<h3><a id="user-content-参考-3" class="anchor" href="#参考-3" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h3>
+
+<p><a href="http://www.tracefact.net/CSharp-Programming/Delegates-and-Events-in-CSharp.aspx">http://www.tracefact.net/CSharp-Programming/Delegates-and-Events-in-CSharp.aspx</a></p>
+
+<h2><a id="user-content-10-事件" class="anchor" href="#10-事件" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>10. 事件</h2>
+
+<p>事件基于委托，为委托提供了一种发布/订阅机制。是类在发生其关注的事情时用来提供通知的一种方式。</p>
+
+<h3><a id="user-content-使用方法-1" class="anchor" href="#使用方法-1" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>使用方法</h3>
+
+<ol>
+<li>声明一个委托：</li>
+</ol>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">public</span> <span class="pl-k">delegate</span> <span class="pl-k">void</span> PublishEventHander();</pre></div>
+
+<ol>
+<li>在委托的机制下我们建立以个出版事件：</li>
+</ol>
+
+<div class="highlight highlight-source-cs"><pre> <span class="pl-k">public</span> <span class="pl-k">event</span> PublishEventHander OnPublish;</pre></div>
+
+<ol>
+<li>触发：
+事件必须要在方法里去触发：</li>
+</ol>
+
+<div class="highlight highlight-source-cs"><pre> <span class="pl-k">public</span> <span class="pl-k">void</span> issue()
+{
+    <span class="pl-c">//如果有人注册了这个事件，也就是这个事件不是空</span>
+    <span class="pl-k">if</span> (OnPublish != <span class="pl-c1">null</span>)
+    {
+        Console.WriteLine(<span class="pl-s"><span class="pl-pds">"</span>触发事件<span class="pl-pds">"</span></span>);
+        OnPublish();
+    }
+}</pre></div>
+
+<ol>
+<li>订阅：</li>
+</ol>
+
+<div class="highlight highlight-source-cs"><pre>Publisher publisher = <span class="pl-k">new</span> Publisher();
+
+<span class="pl-c">//为事件注册订阅者</span>
+publisher.OnPublish += <span class="pl-k">new</span> Publisher.PublishEventHander(Receive);
+<span class="pl-c">//另一种事件注册方式</span>
+<span class="pl-c">//publisher.OnPublish += Receive;</span>
+<span class="pl-c">//发布者在这里触发事件</span>
+publisher.issue();</pre></div>
+
+<p>订阅者的相关事件</p>
+
+<pre><code>public static void Receive()
+{
+    Console.WriteLine("我是XXX,我已经接到通知");
+}
+</code></pre>
+
+<h3><a id="user-content-参考-4" class="anchor" href="#参考-4" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h3>
+
+<p><a href="http://www.cnblogs.com/wudiwushen/archive/2010/04/20/1703763.html">http://www.cnblogs.com/wudiwushen/archive/2010/04/20/1703763.html</a></p>
+
+<h2><a id="user-content-11-扩展方法" class="anchor" href="#11-扩展方法" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>11. 扩展方法</h2>
+
+<p>扩展方法使您能够向现有类型“添加”方法，而无需创建新的派生类型、重新编译或以其他方式修改原始类型。
+例如，现有Product类，其中有属性Price表示价格（int）；</p>
+
+<p>需求：求一个Product集合（IList或IQueryable类型）的价格总和。IQueryable或IList中不可能有这个方法，因为无法确定集合元素类型，以及对哪个属性求和。
+但是可以使用扩展方法。</p>
+
+<h3><a id="user-content-自定义扩展方法" class="anchor" href="#自定义扩展方法" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>自定义扩展方法</h3>
+
+<p>扩展方法必须在静态类中定义，其格式为：</p>
+
+<pre><code>public static [返回类型] [方法名](this [扩展的类型] 对象，[其他参数])
+{
+    ...
+}
+</code></pre>
+
+<p>按照上面的需求，对Queryable扩展PriceSum方法。</p>
+
+<pre><code>public static class ExtensionQueryable
+{
+    //这里求和，无需其他参数
+    public static int PriceSum(this IQueryable&lt;Product&gt; source)
+    {
+        int _sum=0;
+        foreach(Product p in source)
+            _sum+=p.Price;
+        return _sum;
+    }
+}
+</code></pre>
+
+<p>只要在静态类中按正确格式定义了扩展方法，无需其他配置，using引用了命名空间即可使用扩展方法，以后对Queryable类型集合求价格总和可以直接使用PriceSum方法：</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">int</span> sum=products.PriceSum();</pre></div>
+
+<p>不过这个扩展方法只对IQueryable类型有效，复用性不高，C#已经提供了复用性更高的扩展方法。</p>
+
+<p>在System.Linq 命名空间下有对Queryable的相关扩展方法
+<a href="imgs/QueryableExtention.png" target="_blank"><img src="imgs/QueryableExtention.png" alt="QueryableExtention" style="max-width:100%;"></a>
+针对价格求和的需求也提供了相应的泛型扩展方法</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">public</span> <span class="pl-k">static</span> <span class="pl-k">int</span> Sum&lt;TSource&gt;(<span class="pl-c1">this</span> IQueryable&lt;TSource&gt; source, Expression&lt;Func&lt;TSource, <span class="pl-k">int</span>&gt;&gt; selector);</pre></div>
+
+<p>不过需要配合Lambda表达式使用。</p>
+
+<h2><a id="user-content-12-lambda表达式" class="anchor" href="#12-lambda表达式" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>12. Lambda表达式</h2>
+
+<p>lambda表达式在很多地方都有使用，如Linq查询，事件、委托。匿名函数等等。</p>
+
+<h3><a id="user-content-lambda运算符-" class="anchor" href="#lambda运算符-" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>lambda运算符 =&gt;</h3>
+
+<p>运算符(=&gt;)将表达式分为两部分，左边指定输入参数，右边是lambda的主体。</p>
+
+<h3><a id="user-content-写法" class="anchor" href="#写法" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>写法</h3>
+
+<p>一个参数：param=&gt;expr</p>
+
+<p>多个参数：(param1,param2)=&gt;expr</p>
+
+<p>没有参数：()=&gt;expr</p>
+
+<p>Lambda表达式可以用于类型为委托的任意地方，类型是Expression或Expression时，也可以使用Lambda表达式，此时编译器会创建一个表达式树。</p>
+
+<h3><a id="user-content-用于委托类型" class="anchor" href="#用于委托类型" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>用于委托类型</h3>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-c">//求平方的Lambda表达式，将表达式分配给委托类型</span>
+<span class="pl-k">delegate</span> <span class="pl-k">int</span> MySquare(<span class="pl-k">int</span> i);
+<span class="pl-k">delegate</span> <span class="pl-k">int</span> MySum(<span class="pl-k">int</span> i,<span class="pl-k">int</span> j);
+...
+MySquare mySquare = x =&gt; x * x;
+MySum mySum=(x,y)=&gt;x+y;
+
+<span class="pl-k">int</span> j = mySquare(<span class="pl-c1">5</span>); <span class="pl-c">//j = 25</span>
+<span class="pl-k">int</span> sum = mySum(<span class="pl-c1">10</span>,<span class="pl-c1">25</span>);<span class="pl-c">//35</span></pre></div>
+
+<h3><a id="user-content-用于expression" class="anchor" href="#用于expression" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>用于Expression</h3>
+
+<p>在使用Linq中，扩展方法需要将一个委托类型作为参数，这样就可以使用Lambda表达式赋予参数。Expression 中T为委托类型。
+例如：</p>
+
+<div class="highlight highlight-source-cs"><pre>IQueryable&lt;Product&gt; products = myEntities.Product;
+<span class="pl-k">var</span> list=products.Where(a =&gt; a.price &gt; <span class="pl-c1">100</span>);</pre></div>
+
+<p>先看Where中的参数，是Lambda表达式，根据Lambda表达式的结构，a为参数，表达式为 a.price&gt;100  ，也就是返回一个bool类型值。
+Where方法为Queryable类的扩展方法，F12查看定义可知，Where方法有很多重载，针对本例，其定义如下：</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">public</span> <span class="pl-k">static</span> IQueryable&lt;TSource&gt; Where&lt;TSource&gt;(<span class="pl-c1">this</span> IQueryable&lt;TSource&gt; source, Expression&lt;Func&lt;TSource, <span class="pl-k">bool</span>&gt;&gt; predicate);</pre></div>
+
+<p>Where方法接收一个Expression&gt;类型的参数。继续F12查看Func的定义，</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">namespace</span> <span class="pl-en">System</span>
+{
+    <span class="pl-k">public</span> <span class="pl-k">delegate</span> TResult Func&lt;<span class="pl-k">in</span> T, out TResult&gt;(T arg);
+}</pre></div>
+
+<p>可知是System命名空间下定义的一个泛型委托类型。该委托类型接收T类型的参数，返回TResult类型的返回值。
+这里的参数类型T对应Where方法中的Tsource，而返回类型为bool。</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">var</span> list=products.Where(a =&gt; a.price &gt; <span class="pl-c1">100</span>);</pre></div>
+
+<p>这里的a=&gt;a.price&gt;100 为Lambda表达式，首先表达式赋予Func类型的委托，然后编译器将其编译为Expression&gt;类型的表达式树。
+上一章节的价格求和的实现也可以使用Queryable的扩展方法实现：</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">int</span> sum= products.sum(p=&gt;p.Price);</pre></div>
+
+<h2><a id="user-content-13-linq" class="anchor" href="#13-linq" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>13. LINQ</h2>
+
+<p>语言集成查询（Language Integrated Query ，Linq ）在C#编程语言中集成了查询语法，可以用相同的语法访问不同的数据源。</p>
+
+<p><a href="imgs/linq_second_1.jpg" target="_blank"><img src="imgs/linq_second_1.jpg" alt="linq_second" style="max-width:100%;"></a></p>
+
+<p>该图很好的在一个大的层次上揭示了Linq的视图。C#、vb.net等一系列.net语言在一些语言特性和Linq对语言的扩展上对Linq家族提供了支持。</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">var</span> users = <span class="pl-k">from</span> u <span class="pl-k">in</span> db.user
+                     <span class="pl-k">where</span> u.Id &gt; <span class="pl-c1">10</span>
+                     <span class="pl-k">orderby</span> u.Id <span class="pl-k">descending</span>  <span class="pl-c">//倒序</span>
+                     <span class="pl-k">select</span> u;
+
+<span class="pl-c">// var users = db.user.OrderByDescending(p =&gt; p.Id).Where(p =&gt; p.Id &gt; 10);</span></pre></div>
+
+<h3><a id="user-content-linq语法" class="anchor" href="#linq语法" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Linq语法</h3>
+
+<p><a href="imgs/linq4_1.jpg" target="_blank"><img src="imgs/linq4_1.jpg" alt="linq4_1.jpg" style="max-width:100%;"></a></p>
+
+<p>(图中中括号说明是可选的，大括号说明是可以0个或多个)</p>
+
+<p>一个查询表达式是从一个from子句开始的，后面跟着联结，条件过滤，排序，而且还可以是多个，最后以select或者group by结束。这里的from的作用就是引入一个变量，使用这个变量表示遍历跟在in后面的source序列里面的元素。</p>
+
+<p>C#中，所有的查询表达式都有与之对应的查询操作符（即扩展方法），不过部分扩展方法没有对应的表达式，但是只是很少一部分，所有可以根据个人习惯选择使用表达式方式还是使用扩展方法方式进行数据查询。</p>
+
+<h3><a id="user-content-参考-5" class="anchor" href="#参考-5" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h3>
+
+<p><a href="http://www.cnblogs.com/knowledgesea/p/3897665.html">http://www.cnblogs.com/knowledgesea/p/3897665.html</a>  （十种LINQ的常用查询方法）</p>
+
+<p><a href="https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b/view/SamplePack#content">https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b/view/SamplePack#content</a>   （MSDN上的Linq的比较全的例子）</p>
+
+<p>《C#高级编程（第九版）》 第11章 （详细讲解）</p>
+
+<p>《 LINQ in Action 》</p>
+
+<h2><a id="user-content-14-多线程" class="anchor" href="#14-多线程" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>14. 多线程</h2>
+
+<p>现在的操作系统是多任务操作系统。多线程是实现多任务的一种方式。</p>
+
+<h3><a id="user-content-进程" class="anchor" href="#进程" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>进程</h3>
+
+<p>进程是指一个内存中运行的应用程序，每个进程都有自己独立的一块内存空间。</p>
+
+<h3><a id="user-content-线程" class="anchor" href="#线程" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>线程</h3>
+
+<p>线程是指进程中的一个执行流程，一个进程中可以运行多个线程。线程总是属于某个进程，进程中的多个线程共享进程的内存、资源。</p>
+
+<h3><a id="user-content-多线程" class="anchor" href="#多线程" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>多线程</h3>
+
+<blockquote>
+<ul>
+<li>提高CPU和资源利用率。</li>
+<li>防止线程阻塞。</li>
+</ul>
+</blockquote>
+
+<h3><a id="user-content-多线程实现" class="anchor" href="#多线程实现" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>多线程实现</h3>
+
+<pre><code>class Program
+    {
+        static void Main(string[] args)
+        {
+            Thread t1 = new Thread(new ThreadStart(TestMethod));
+            Thread t2 = new Thread(new ParameterizedThreadStart(TestMethod));
+            t1.IsBackground = true;
+            t2.IsBackground = true;
+            t1.Start();
+            t2.Start("hello");
+            Console.ReadKey();
+        }
+
+        public static void TestMethod()
+        {
+            Console.WriteLine("不带参数的线程函数");
+        }
+
+        public static void TestMethod(object data)
+        {
+            string datastr = data as string;
+            Console.WriteLine("带参数的线程函数，参数为：{0}", datastr);
+        }
+    }
+</code></pre>
+
+<p>线程池</p>
+
+<pre><code> class Program
+{
+    static void Main(string[] args)
+    {
+        string taskInfo = "运行10秒";
+        // 插入一个新的请求到线程池
+        bool result = ThreadPool.QueueUserWorkItem(DoWork, taskInfo);
+        // 分配线程有可能会失败
+        if (!result)
+        {
+            Console.WriteLine("分配线程失败");
+        }
+        else
+        {
+            Console.WriteLine("按回车键结束程序");
+        }
+        Console.ReadKey();
+    }
+
+    private static void DoWork(object state)
+    {
+        // 模拟做了一些操作，耗时10s
+        for (int i = 0; i &lt; 10; i++)
+        {
+            Console.WriteLine("工作者线程的任务是：{0}", state);
+            Thread.Sleep(1000);
+        }
+    }
+}
+</code></pre>
+
+<h3><a id="user-content-参考-6" class="anchor" href="#参考-6" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h3>
+
+<p><a href="http://www.cnblogs.com/edisonchou/p/4848131.html">http://www.cnblogs.com/edisonchou/p/4848131.html</a></p>
+
+<h2><a id="user-content-15-异步编程" class="anchor" href="#15-异步编程" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>15. 异步编程</h2>
+
+<p>使用异步编程，方法调用是在后台运行（通常在线程或任务的协助下），并不会阻塞调用线程。</p>
+
+<h3><a id="user-content-3种模式" class="anchor" href="#3种模式" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3种模式</h3>
+
+<blockquote>
+<ul>
+<li>异步模式</li>
+<li>基于事件的异步模式</li>
+<li>基于任务的异步模式</li>
+</ul>
+</blockquote>
+
+<p>主要介绍第三种基于任务的异步模式。
+一般情况下，该模式定义一个带有“Async” 后缀的方法，并且返回一个Task类型。
+方法声明的返回值类型为Task ，但并不需要声明一个Task类型的变量作为返回结果。只需要声明一个T类型的变量，并使用await关键字即可。</p>
+
+<p>如，Abp中AbpRepositoryBase类中的GetAsync方法：</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">public</span> <span class="pl-k">virtual</span> <span class="pl-k">async</span> Task&lt;TEntity&gt; GetAsync(TPrimaryKey id)
+{
+    <span class="pl-k">var</span> entity = <span class="pl-k">await</span> FirstOrDefaultAsync(id);
+    <span class="pl-k">if</span> (entity == <span class="pl-c1">null</span>)
+    {
+        <span class="pl-k">throw</span> <span class="pl-k">new</span> AbpException(<span class="pl-s"><span class="pl-pds">"</span>There is no such an entity with given primary key. Entity type: <span class="pl-pds">"</span></span> + <span class="pl-k">typeof</span>(TEntity).FullName + <span class="pl-s"><span class="pl-pds">"</span>, primary key: <span class="pl-pds">"</span></span> + id);
+    }
+    <span class="pl-k">return</span> entity;
+}</pre></div>
+
+<h3><a id="user-content-async-和await" class="anchor" href="#async-和await" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>async 和await</h3>
+
+<p>使用 async 修饰符可将方法、lambda 表达式或匿名方法指定为异步。
+如果 async 关键字修饰的方法不包含 await 表达式或语句，则该方法将同步执行。</p>
+
+<h3><a id="user-content-使用-1" class="anchor" href="#使用-1" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>使用</h3>
+
+<p>Abp中AbpRepositoryBase类</p>
+
+<h3><a id="user-content-参考-7" class="anchor" href="#参考-7" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h3>
+
+<p><a href="https://msdn.microsoft.com/zh-cn/library/hh191443.aspx">https://msdn.microsoft.com/zh-cn/library/hh191443.aspx</a></p>
+
+<p><a href="https://msdn.microsoft.com/zh-cn/library/hh156513.aspx">https://msdn.microsoft.com/zh-cn/library/hh156513.aspx</a></p>
+
+<p>《C#高级编程（第9版）》 第13章 异步编程</p>
+
+<h2><a id="user-content-16-httpapplication" class="anchor" href="#16-httpapplication" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>16. HttpApplication</h2>
+
+<p>HttpApplication对象是经由HttpApplicationFactory.GetApplicationInstance创建。HttpApplicationFactory 管理并维护HttpApplication 对象池。
+IIS启动网站程序后，HttpApplication并不会马上被创建。而是当应用程序的第一个请求到达时，HttpApplicationFactory会提取有关应用程序类型的信息（global.asax 类）、
+设置用于监视更改的文件、创建应用程序状态并触发 Application_OnStart 事件。之后有新的请求时，HttpApplicationFactory会从程序池中取出一个HttpApplication实例，
+并将要处理的请求放入实例中。如果没有可用的对象，则创建一个新的 HttpApplication 对象</p>
+
+<p>在HttpApplication中，利用.Net中的事件机制，通过在处理过程中依次发出的多个事件，将这个处理过程分解为多个步骤，这个处理机制通常我们称为处理管道。
+HttpApplication处理管道示意图：
+<a href="imgs/211102040003.jpg" target="_blank"><img src="imgs/211102040003.jpg" alt="HttpApplication" style="max-width:100%;"></a></p>
+
+<h3><a id="user-content-参考-8" class="anchor" href="#参考-8" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h3>
+
+<p><a href="http://www.cnblogs.com/kissdodog/p/3527922.html">http://www.cnblogs.com/kissdodog/p/3527922.html</a></p>
+
+<p><a href="https://msdn.microsoft.com/zh-cn/library/system.web.httpapplication(v=vs.110).aspx">https://msdn.microsoft.com/zh-cn/library/system.web.httpapplication(v=vs.110).aspx</a></p>
+
+<h2><a id="user-content-17-项目结构" class="anchor" href="#17-项目结构" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>17. 项目结构</h2>
+
+<p>创建项目的同时会创建一个解决方案，之后可以在此解决方案上添加新项目。</p>
+
+<h3><a id="user-content-项目类型" class="anchor" href="#项目类型" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>项目类型</h3>
+
+<p>如图，新建项目中列出了使用C#开发，常用的一些项目类型，而如果是开发Web项目，常用的项目类型为图中圈出的五种：</p>
+
+<blockquote>
+<ul>
+<li>ASP.NET Web Application(.NET Framework)</li>
+<li>类库</li>
+<li>ASP.NET Core Web Application(.NET Core)</li>
+<li>ASP.NET Core Web Application(.NET Framework)</li>
+<li>Class Library(.NET Core)</li>
+</ul>
+</blockquote>
+
+<p><a href="imgs/vs_new_project2.png" target="_blank"><img src="imgs/vs_new_project2.png" alt="vs_new_project" style="max-width:100%;"></a></p>
+
+<p>后三个后面再介绍，先看前两个项目的项目结构</p>
+
+<h3><a id="user-content-项目结构" class="anchor" href="#项目结构" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>项目结构</h3>
+
+<p>类库项目和Web App项目都会有Properties、引用 以及项目自身的文件，部分需要配置信息的项目会有app.config或者web.config文件。
+Web 应用程序会有Global.asax和StartUp.cs文件作为启动入口和相关配置；使用NuGet的话，会有packages.config文件来管理NuGet程序包。
+具体各类型项目之间的不同下一章介绍。</p>
+
+<p>Properties下有AssemblyInfo.cs文件。此文件下包含了该程序集的相关信息，如果此项目下部分内部类需要被其他项目使用，可在此文件设置InternalsVisibleTo 属性。
+Abp中Abp项目下的AssemblyInfo.cs文件配置如下：</p>
+
+<div class="highlight highlight-source-cs"><pre>[assembly: AssemblyTitle(<span class="pl-s"><span class="pl-pds">"</span>ASP.NET Boilerplate<span class="pl-pds">"</span></span>)]
+[assembly: AssemblyDescription(<span class="pl-s"><span class="pl-pds">"</span>ASP.NET Boilerplate<span class="pl-pds">"</span></span>)]
+[assembly: AssemblyConfiguration(<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>)]
+[assembly: AssemblyCompany(<span class="pl-s"><span class="pl-pds">"</span>Volosoft<span class="pl-pds">"</span></span>)]
+[assembly: AssemblyProduct(<span class="pl-s"><span class="pl-pds">"</span>Abp<span class="pl-pds">"</span></span>)]
+[assembly: AssemblyCopyright(<span class="pl-s"><span class="pl-pds">"</span>Copyright © 2016<span class="pl-pds">"</span></span>)]
+[assembly: AssemblyTrademark(<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>)]
+[assembly: AssemblyCulture(<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>)]
+
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.Application<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.EntityFramework<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.EntityFrameworkCore<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.NHibernate<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.Web.Common<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.AspNetCore<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.Web<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.Web.Api<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.Web.Mvc<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.Web.Resources<span class="pl-pds">"</span></span>)]
+
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.Tests<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.EntityFramework.Tests<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.RedisCache.Tests<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.Web.Tests<span class="pl-pds">"</span></span>)]
+[assembly: InternalsVisibleTo(<span class="pl-s"><span class="pl-pds">"</span>Abp.Web.Api.Tests<span class="pl-pds">"</span></span>)]
+
+<span class="pl-c">// Setting ComVisible to false makes the types in this assembly not visible</span>
+<span class="pl-c">// to COM components.  If you need to access a type in this assembly from</span>
+<span class="pl-c">// COM, set the ComVisible attribute to true on that type.</span>
+[assembly: ComVisible(<span class="pl-c1">false</span>)]
+
+<span class="pl-c">// The following GUID is for the ID of the typelib if this project is exposed to COM</span>
+[assembly: Guid(<span class="pl-s"><span class="pl-pds">"</span>7b50eb47-4993-4a14-b65c-b61714a607b9<span class="pl-pds">"</span></span>)]</pre></div>
+
+<p>其中设置InternalsVisibleTo属性的部分，即表示该程序集内部类（internal修饰）对其指定的项目开放使用。</p>
+
+<p>而 ASP.NET Web Application 项目除了以上内容外，还包括了如下图所示的内容，包括一些静态文件、css、js以及Controller、Model和View模板等内容。App_Start还有一些路由、Bundle的配置信息。</p>
+
+<h2><a id="user-content-18-ef" class="anchor" href="#18-ef" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>18. EF</h2>
+
+<h3><a id="user-content-dbcontextdbset" class="anchor" href="#dbcontextdbset" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DbContext、DbSet</h3>
+
+<p>定义了从实体对象到数据库的映射。官方解释：DbContext 实例表示工作单元和存储库模式的组合，可用来查询数据库并将更改组合在一起，这些更改<strong>稍后</strong>将作为一个单元写回存储区中。</p>
+
+<p>我们只需知道是用来通过实体对象查询和操作数据库就足够。
+在使用Abp框架时，会创建一个类（一般会以DbContext为后缀）直接或间接继承自AbpDbContext。
+而在Abp框架中，AbpDbContext继承自DbContext,而且对AbpDbContext又进行了多次封装，最终在使用Abp框架时，只需要了解类EfRepositoryBase中常用的方法即可正常使用EF。</p>
+
+<p>DbSet 表示上下文中给定类型的所有实体的集合或可从数据库中查询的给定类型的所有实体的集合。DbContext对哪些实体对象和数据库进行映射，需要通过DbSet指定。</p>
+
+<p>在实际项目中会有一个类直接或间接继承自DbContext，每个项目中定义的实体，都需要在这个类中显示的声明。如下：</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">MyAbpProjectDbContext</span> : <span class="pl-k">AbpZeroDbContext</span>&lt;<span class="pl-k">Tenant</span>, <span class="pl-k">Role</span>, <span class="pl-k">User</span>&gt;
+{
+    <span class="pl-c">//TODO: Define an IDbSet for your Entities...</span>
+    <span class="pl-k">public</span> <span class="pl-k">virtual</span> IDbSet&lt;Order&gt; <span class="pl-en">Orders</span> { <span class="pl-k">set</span>; <span class="pl-k">get</span>; }
+
+    <span class="pl-c">/* NOTE:</span>
+<span class="pl-c">     *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.</span>
+<span class="pl-c">     *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not</span>
+<span class="pl-c">     *   pass connection string name to base classes. ABP works either way.</span>
+<span class="pl-c">     */</span>
+    <span class="pl-k">public</span> <span class="pl-en">MyAbpProjectDbContext</span>()
+        : <span class="pl-c1">base</span>("Default")
+    {
+
+    }
+    ...
+}</pre></div>
+
+<h3><a id="user-content-使用-2" class="anchor" href="#使用-2" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>使用</h3>
+
+<p>基本的查询</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">using</span> (var context = new BloggingContext())
+{
+    <span class="pl-k">var</span> blogs = context.Blogs.ToList();
+    <span class="pl-k">var</span> blog = context.Blogs.Single(b =&gt; b.BlogId == <span class="pl-c1">1</span>);
+    <span class="pl-k">var</span> blogs2 = context.Blogs
+            .Where(b =&gt; b.Url.Contains(<span class="pl-s"><span class="pl-pds">"</span>dotnet<span class="pl-pds">"</span></span>))
+            .ToList();<span class="pl-c">//Tolist 为立即加载，如果不使用TOlist将会延迟加载。</span>
+}</pre></div>
+
+<p>增、删、改。修改数据库的操作，最后需要调用SaveChanges()方法来执行修改。</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-c">//新增记录</span>
+<span class="pl-k">using</span> (var db = new BloggingContext())
+{
+    <span class="pl-k">var</span> blog = <span class="pl-k">new</span> Blog { Url = <span class="pl-s"><span class="pl-pds">"</span>http://sample.com<span class="pl-pds">"</span></span> };
+    db.Blogs.Add(blog);
+    db.SaveChanges();
+}
+<span class="pl-c">//修改记录</span>
+<span class="pl-k">using</span> (var db = new BloggingContext())
+{
+    <span class="pl-k">var</span> blog = db.Blogs.First();
+    blog.Url = <span class="pl-s"><span class="pl-pds">"</span>http://sample.com/blog<span class="pl-pds">"</span></span>;
+    db.SaveChanges();
+}
+<span class="pl-c">//删除记录</span>
+<span class="pl-k">using</span> (var db = new BloggingContext())
+{
+    <span class="pl-k">var</span> blog = db.Blogs.First();
+    db.Blogs.Remove(blog);
+    db.SaveChanges();
+}</pre></div>
+
+<p>EfRepositoryBase类中方法如下：
+<a href="imgs/EfRepositoryBase.png" target="_blank"><img src="imgs/EfRepositoryBase.png" alt="EfRepositoryBase" style="max-width:100%;"></a>
+其他相关操作可参加官方文档。</p>
+
+<p>这里的EF的官方概念的“稍后”就解释了第1章节的AbpRepositoryBase 里面的疑问：为什么仓储类里与数据库交互的查询方法只有GetAll,而其他条件查询是对GetAll的数据操作；这样为什么不会降低性能？
+<a href="imgs/AbpRepositoryBase.png" target="_blank"><img src="imgs/AbpRepositoryBase.png" alt="AbpRepositoryBase" style="max-width:100%;"></a>
+因为EF是支持延时加载的，所以在查询数据是可以直接使用GetAll，然后在数据使用之前进行其他条件筛选。最后真正执行查询时，会对查询条件进行合并。当然，这是仓储基类的优化方案，在实际项目编码时，直接使用仓储类的相关方法，应避免这种先GetAll在条件查询的方式。</p>
+
+<h4><a id="user-content-参考-9" class="anchor" href="#参考-9" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h4>
+
+<p><a href="https://docs.efproject.net/en/latest/">https://docs.efproject.net/en/latest/</a>  官方文档</p>
+
+<p><a href="https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b/viewsamplepack">https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b/viewsamplepack</a>  Linq</p>
+
+<h2><a id="user-content-19-iqueryable-ienumerable-ilist" class="anchor" href="#19-iqueryable-ienumerable-ilist" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>19. IQueryable, IEnumerable, IList</h2>
+
+<p>三个集合接口，常用在EF查询中。</p>
+
+<blockquote>
+<ul>
+<li>IQueryable和IEnumerable都是延时执行的，而IList是即时执行。</li>
+<li>IQueryable和IEnumerable在每次执行时都必须连接数据库读取，而IList读取一次后，以后各次都不需连接数据库。</li>
+<li>IQueryable在可以将多个查询条件组合。</li>
+</ul>
+</blockquote>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-c">//IQueryable</span>
+IQueryable&lt;Product&gt; expression = ctx.Products.Take(<span class="pl-c1">5</span>);
+IQueryable&lt;Product&gt; products = expression.Take(<span class="pl-c1">2</span>); <span class="pl-c">// A  不执行SQL</span>
+Console.WriteLine(products.Count());　　　　　　　 <span class="pl-c">// B　SELECT COUNT(1) FROM ( SELECT TOP (2) * FROM ( SELECT TOP (5) * FROM [dbo].[Products] ))</span>
+Console.WriteLine(products.Count());　　　　　　　 <span class="pl-c">// C  SELECT COUNT(1) FROM ( SELECT TOP (2) * FROM ( SELECT TOP (5) * FROM [dbo].[Products] ))</span>
+<span class="pl-k">foreach</span> (Product p <span class="pl-k">in</span> products)　　　　　　　　　　<span class="pl-c">// D  SELECT TOP (2) * FROM ( SELECT TOP (5) * FROM [dbo].[Products]</span>
+{
+    Console.WriteLine(p.ProductName);
+}
+<span class="pl-k">foreach</span> (Product p <span class="pl-k">in</span> products)　　　　　　　　　　<span class="pl-c">// E  SELECT TOP (2) * FROM ( SELECT TOP (5) * FROM [dbo].[Products] )</span>
+{
+    Console.WriteLine(p.ProductName);
+}
+
+<span class="pl-c">//IEnumerable</span>
+IEnumerable&lt;Product&gt; expression = ctx.Products.Take(<span class="pl-c1">5</span>).AsEnumerable();
+IEnumerable&lt;Product&gt; products = expression.Take(<span class="pl-c1">2</span>);  <span class="pl-c">// A  不执行SQL</span>
+Console.WriteLine(products.Count());　　　　　　　　　　<span class="pl-c">// B　SELECT TOP (5) * FROM [dbo].[Products]</span>
+
+<span class="pl-c">//IList</span>
+IList&lt;Product&gt; products = expression.Take(<span class="pl-c1">2</span>).ToList(); <span class="pl-c">// A  SELECT TOP (2) * FROM ( SELECT TOP (5) * FROM [dbo].[Products]</span>
+Console.WriteLine(products.Count());                    <span class="pl-c">//不执行sql</span></pre></div>
+
+<h3><a id="user-content-参考-10" class="anchor" href="#参考-10" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h3>
+
+<p><a href="http://blog.csdn.net/codefighting/article/details/20324205">http://blog.csdn.net/codefighting/article/details/20324205</a></p>
+
+<h2><a id="user-content-20-nuget" class="anchor" href="#20-nuget" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>20. NuGet</h2>
+
+<p>类似于NodeJs中的npm。</p>
+
+<h3><a id="user-content-nuget程序包管理" class="anchor" href="#nuget程序包管理" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>NuGet程序包管理</h3>
+
+<p>可以在项目或者解决方案上右键选择管理NuGet程序包即可进入可视化管理界面。
+在菜单栏--工具--NuGet包管理器---程序包管理控制台，可进入包管理控制台，也可在此通过命令行的形式管理程序包，或其他一些操作（Migration经常用到）。</p>
+
+<h3><a id="user-content-程序包源配置" class="anchor" href="#程序包源配置" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>程序包源配置</h3>
+
+<p>在菜单栏--工具--NuGet包管理器---程序包管理设置。选择程序包源选项，可添加程序包源。</p>
+
+<p>项目组的NuGet服务器地址：<a href="http://10.10.10.20:8080/nuget/">http://10.10.10.20:8080/nuget/</a></p>
+
+<p><a href="imgs/nuget.png" target="_blank"><img src="imgs/nuget.png" alt="nuget" style="max-width:100%;"></a></p>
+
+<h2><a id="user-content-21-aspnet-core-10" class="anchor" href="#21-aspnet-core-10" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>21. ASP.NET Core 1.0</h2>
+
+<p>之前都学习过NodeJs，所以新版本的Asp.Net Core很好理解。
+ASP.NET Core 1.0由ASP.NET 5 改名而来，同时名称变动的有：</p>
+
+<blockquote>
+<ul>
+<li>ASP.NET 5 –&gt; ASP.NET Core 1.0</li>
+<li>.NET  5 –&gt; .NET Core 1.0</li>
+<li>Entity Framework 7 –&gt; Entity Framework Core 1.0</li>
+</ul>
+</blockquote>
+
+<p>这里先只对ASP.NET Core 1.0 做简单介绍。
+ASP.NET Core是对ASP.NET的重新设计，其主要特色是跨平台。
+ASP.NET Core开发的应用程序可以在.NET Core或者.NET Framework上运行。
+再来看之前的项目类型。</p>
+
+<p><a href="imgs/vs_new_project2.png" target="_blank"><img src="imgs/vs_new_project2.png" alt="vs_new_project" style="max-width:100%;"></a></p>
+
+<p>其中ASP.NET Core Web Application(.NET Core) 、ASP.NET Core Web Application(.NET Framework)为ASP.NET Core 应用程序在两个不同平台的支持。
+和其他两个传统项目主要区别在于完全以NuGet作为依赖引用方式，主要体现在项目中新增了project.json文件，该文件用来管理NuGet引用，包括基础的运行库都可以通过Nuget指定。
+ASP.NET Core 优势：</p>
+
+<blockquote>
+<ul>
+<li>统一了WebUI和Web APIs的创建流程。</li>
+<li>整合了现代客户端框架和开发工作流程。</li>
+<li>云就绪基础环境的配置系统。</li>
+<li>可以将程序寄宿在IIS或自托管服务上。（原文：Ability to host on IIS or self-host in your own process）</li>
+<li>全面支持NuGet。(Ships entirely as NuGet packages)</li>
+<li>简化了现代Web开发。</li>
+<li>可以构建和运行在Windows，Mac和Linux的跨平台的ASP.NET应用。</li>
+<li>开源和社区化。</li>
+</ul>
+</blockquote>
+
+<h3><a id="user-content-项目结构-1" class="anchor" href="#项目结构-1" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>项目结构</h3>
+
+<p>ASP.NET Core 项目或  基于.NET Core 的项目其项目结构略有变化。</p>
+
+<blockquote>
+<ul>
+<li>使用project.json 来配置项目，包括项目版本，运行平台（.NET Framework 或 .NET Core ）和NuGet程序包管理（弃用了project.json）。</li>
+<li>Web应用程序更为简洁。</li>
+<li>web应用程序启动入口变为Program的控制台程序。</li>
+<li>bundle信息改由 bundleconfig.json管理。</li>
+</ul>
+</blockquote>
+
+<p><a href="imgs/asp_net_core_web_app.png" target="_blank"><img src="imgs/asp_net_core_web_app.png" alt="asp_net_core_web_app.png" style="max-width:100%;"></a>
+<a href="imgs/asp_net_core_web_api.png" target="_blank"><img src="imgs/asp_net_core_web_api.png" alt="asp_net_core_web_api.png" style="max-width:100%;"></a>
+<a href="imgs/asp_net_web_app.png" target="_blank"><img src="imgs/asp_net_web_app.png" alt="asp_net_web_app.png" style="max-width:100%;"></a></p>
+
+<h3><a id="user-content-统一了webui和web-apis的创建流程" class="anchor" href="#统一了webui和web-apis的创建流程" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>统一了WebUI和Web APIs的创建流程。</h3>
+
+<p><a href="imgs/asp_net_core_web_app.png" target="_blank"><img src="imgs/asp_net_core_web_app.png" alt="asp_net_core_web_app.png" style="max-width:100%;"></a>
+<a href="imgs/asp_net_core_web_api.png" target="_blank"><img src="imgs/asp_net_core_web_api.png" alt="asp_net_core_web_api.png" style="max-width:100%;"></a></p>
+
+<p>上面两张图分别是
+ASP.NET Core Web App和ASP.NET Core Web API的项目结构图，可以发现，除了一些css、js之类的Content和View模板之外，其他完全一样。
+而传统的ASP.NET Application 中实现WebAPI除了Web app的相关配置之外，还需要专门配置API路由信息、认证方式以及其他相关配置。也就是Web API的部分是需要单独处理的。</p>
+
+<h3><a id="user-content-云就绪基础环境的配置系统" class="anchor" href="#云就绪基础环境的配置系统" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>云就绪基础环境的配置系统。</h3>
+
+<p>ASP.NET Core的配置系统已经对以前依赖于System.Configuration和XML配置文件web.config版本的ASP.NET进行了重新设计。ASP.NET Core 程序中依然有web.config和app.config，
+不过其内容只有极少的配置项。而大部分配置信息，使用json文件存储，更为清晰，而且配置信息都转移到了Startup文件中随着程序启动时进统一加载。</p>
+
+<p>传统asp.net 程序的Startup.cs文件中仅进行了身份认证配置。</p>
+
+<p><a href="imgs/asp_net_startup.png" target="_blank"><img src="imgs/asp_net_startup.png" alt="asp_net_startup" style="max-width:100%;"></a></p>
+
+<p>而在ASP.NET Core 程序的Startup中，除了加载相关配置之外，还可以在此配置需要的服务中间件。
+<a href="imgs/asp_net_core_startup.png" target="_blank"><img src="imgs/asp_net_core_startup.png" alt="asp_net_core_startup" style="max-width:100%;"></a></p>
+
+<h3><a id="user-content-可以将程序寄宿在iis或自托管服务上" class="anchor" href="#可以将程序寄宿在iis或自托管服务上" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>可以将程序寄宿在IIS或自托管服务上。</h3>
+
+<p>这个功能是.Net Core为跨平台做的相关改进，具体可以看下程序的启动入口。
+传统ASP.Net web程序的入口是Global.asax文件中的Application_Start方法，这是HttpApplication中的一个方法，也是传统的管道处理生命周期的一部分，IIS处理请求过程中由.net framework运行时调用。这就要求程序必须运行在安装了.net Framework的IIS服务器上。</p>
+
+<p>而ASP.NET Core完全中托管应用程序的Web服务器中解耦出来，ASP.NET Core支持使用IIS、IIS Express以及其他使用了Kestrel 和 WebListener HTTP servers的服务器程序。托管程序的web服务器并不会直接监听请求，而是将请求包装到HttpContext中转发给应用程序（Kestrel Server）。</p>
+
+<p><a href="imgs/asp_net_core_program.png" target="_blank"><img src="imgs/asp_net_core_program.png" alt="asp_net_core_program" style="max-width:100%;"></a></p>
+
+<h3><a id="user-content-参考-11" class="anchor" href="#参考-11" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>参考</h3>
+
+<p><a href="http://www.cnblogs.com/shanyou/p/Jexus_Kestrel.html">http://www.cnblogs.com/shanyou/p/Jexus_Kestrel.html</a>   （跨平台部署案例）</p>
+
+<p><a href="https://docs.asp.net/en/latest/intro.html">https://docs.asp.net/en/latest/intro.html</a></p>
+
+<p><a href="http://www.cnblogs.com/Leo_wl/p/5507534.html">http://www.cnblogs.com/Leo_wl/p/5507534.html</a></p>
+</article>
+  </div>
+
+</div>
+
+<button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="hidden">Jump to Line</button>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div></div>
+  </div>
+
+    </div>
+
+        <div class="container site-footer-container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>© 2016 <span title="0.11047s from github-fe140-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+
+    <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      
+      <script crossorigin="anonymous" integrity="sha256-QEzdGt0fcQ2wFqAuXjH/+KkInRT/DCJ9+GK3gIhtt9U=" src="https://assets-cdn.github.com/assets/frameworks-404cdd1add1f710db016a02e5e31fff8a9089d14ff0c227df862b780886db7d5.js"></script>
+      <script async="async" crossorigin="anonymous" integrity="sha256-P12elManijHgoufZlzHoZIIaDNvYLSi8aUjvjMRnXws=" src="https://assets-cdn.github.com/assets/github-3f5d9e94c6a78a31e0a2e7d99731e864821a0cdbd82d28bc6948ef8cc4675f0b.js"></script>
+      
+      
+      
+      
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+    <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+  </div>
+</div>
+
+  
+
+
+</body></html>
